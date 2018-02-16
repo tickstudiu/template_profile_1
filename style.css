@@ -1,0 +1,91 @@
+body{
+	background-color: #F95F62;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer{
+	color: #FFFFFF;
+}
+
+.content{
+	padding: 15px;
+}
+
+.footer{
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 12px;
+	background-color: #DC304B;
+}
+.profile-img{
+	padding: 15px;
+}
+
+.persen-25{
+	height:12px;
+	width:25%;
+	background-color: #F95F62;
+}
+
+.persen-95{
+	height:12px;
+	width:95%;
+	background-color: #F95F62;
+}
+
+.persen-35{
+	height:12px;
+	width:35%;
+	background-color: #F95F62;
+}
+
+.persen-90{
+	height:12px;
+	width:90%;
+	background-color: #F95F62;
+}
+
+.main-container{
+	margin-top: 30px;
+	background-color: #FFFFFF;
+}
+
+.list-facebook{
+	transition: all .25s;
+}
+
+.list-facebook:hover{
+	background-color: #101E5A;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.list-gmail{
+	transition: all .25s;
+}
+
+.list-gmail:hover{
+	background-color: #DC304B;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.list-github{
+	transition: all .25s;
+}
+
+.list-github:hover{
+	background-color: #324D5C;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+@media only screen and (max-width: 768px) {
+    .main-container{
+    	margin-top: 0; 
+    }
+}
